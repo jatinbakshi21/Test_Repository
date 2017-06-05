@@ -1,0 +1,15 @@
+Git
+Step 1: Create account on Github.com
+Step 2:  Save GitHub Repository path along with User id and Pwd
+Step 3: Download and Install GitHub Plugin into eclipse using below url.
+  Name: "github", URL: http://download.eclipse.org/egit/updates
+Choose first one: "Eclipse Git Team Provider" and install it.
+Step: 4: Verify Git is Installed.	 Window>Show view> others> Git Folder should be exist.
+Step :5 Create new java project along with new java file which need to upload.
+Step:6- Create copy folder of this project for purpose of sync with Git
+right click on eclipse project>team> share project>Git> give location
+Step:7: Verify all code should be copied.
+Step 8: Move code to GitHub
+Right click on java file>Team> commit> enter commit msg > select file from unstaged area then right click on file>add to index (Then file will move from Unstaged area to Staged area)
+Step: 9: Press commit and push. Then it will ask for Git Repository Url , Userid and pwd.
+Step: 10. Verify code on github.
